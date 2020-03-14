@@ -22,8 +22,8 @@
         <tbody>
             @for($x = 0; $x <= count($values )-1; $x++) <tr>
                 <td>{{isset($values[$x][0]) ? $values[$x][0] : '-'}}</td>
-                <td>{{isset($values[$x][1]) ? $values[$x][0] :'-'}}</td>
-                <td>{{isset($values[$x][2]) ? $values[$x][0] : '-'}}</td>
+                <td>{{isset($values[$x][1]) ? $values[$x][1] :'-'}}</td>
+                <td>{{isset($values[$x][2]) ? $values[$x][2] : '-'}}</td>
                 </tr>
                 @endfor
         </tbody>
