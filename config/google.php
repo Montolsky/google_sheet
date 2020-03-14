@@ -6,7 +6,7 @@ return [
     | Google application name
     |----------------------------------------------------------------------------
     */
-    'application_name' => env('GOOGLE_APPLICATION_NAME', ''),
+    'application_name' => 'TESTSHEET',
 
     /*
     |----------------------------------------------------------------------------
@@ -17,8 +17,8 @@ return [
     | https://developers.google.com/console
     |
     */
-    'client_id' => env('GOOGLE_CLIENT_ID', ''),
-    'client_secret' => env('GOOGLE_CLIENT_SECRET', ''),
+    'client_id' => '428741814697-8i5c9l5rij41jh2u5lpagvvm4vc5n0g2.apps.googleusercontent.com',
+    'client_secret' => 'NVs9SPyLQ3IqioDsG1QIGFRB',
     'redirect_uri' => env('GOOGLE_REDIRECT', ''),
     'scopes' => [],
     'access_type' => 'online',
@@ -37,7 +37,7 @@ return [
     | a Server key, and not a Browser key.
     |
     */
-    'developer_key' => env('GOOGLE_DEVELOPER_KEY', ''),
+    'developer_key' => 'AIzaSyDE5nH8qxyc6aXd-qPxBCFpmUM7IKIZO2o',
 
     /*
     |----------------------------------------------------------------------------
